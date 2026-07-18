@@ -1,35 +1,25 @@
 {
-	"schemaVersion": 1,
-	"id": "dmws",
-	"version": "${version}",
-	"name": "dex's mod with stuff",
-	"description": "a mod with stuff and more stuff and more more stuff and blah blah blah.....",
-	"authors": [
-		"dexkitt"
-	],
-	"contact": {
-		"sources": "https://github.com/dexkitt/the-mod",
-        "issues": "https://github.com/dexkitt/the-mod/issues",
-        "homepage": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-	},
-	"license": "GPL-3.0",
-	"icon": "assets/dmws/icon.png",
-	"environment": "*",
-	"entrypoints": {
-		"main": [
-			"net.dmws.DexSModWithStuff"
-		]
-	},
-	"mixins": [
-		"dmws.mixins.json"
-	],
-    "recommends": {
-      "modmenu": "*"
-    },
-	"depends": {
-		"fabricloader": ">=0.19.3",
-		"minecraft": "~26.2",
-		"java": ">=25",
-		"fabric-api": "*"
-	}
+  "schemaVersion": 1,
+  "id": "dexsmod",
+  "version": "${version}",
+  "name": "dex's mod with more stuff",
+  "description": "a mod with stuff and more stuff and allat stuff and more......",
+  "authors": [],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/dexsmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.dexkitt.dexsmod.Main"
+    ]
+  },
+  "mixins": [
+    "dexsmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
 }
