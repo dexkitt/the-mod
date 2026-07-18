@@ -21,3 +21,6 @@ gets bigger later soooo yes
 
 
 aaaaaaaaaaaasdbhjfbgihbpijpnfoewrjngfoujhbrg java is frying me
+
+note to self: DONT USE FUCKING AI !!!!!!!!!!!!!!!
+(im sorry i used ai for that closed pull request i meant EXPLAIN not create code and make a pull request)
