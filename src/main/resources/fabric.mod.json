@@ -2,9 +2,11 @@
   "schemaVersion": 1,
   "id": "dexsmod",
   "version": "${version}",
-  "name": "dex's mod with more stuff",
-  "description": "a mod with stuff and more stuff and allat stuff and more......",
-  "authors": [],
+  "name": "dex's mod with stuff",
+  "description": "a mod with stuff and more stuff and more more stuff and blah blah blah.....",
+  "authors": [
+    "dexkitt"
+  ],
   "contact": {},
   "license": "GPL-3.0",
   "icon": "assets/dexsmod/icon.png",
@@ -20,6 +22,9 @@
   "mixins": [
     "dexsmod.mixins.json"
   ],
+  "recommends": {
+    "modmenu": "*"
+  },
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric-api": "*",
