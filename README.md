@@ -11,8 +11,8 @@ gets bigger later soooo yes
   - [ ] some settings sync with server
   - [ ] only people with operator can edit server settings (ignored in singleplayer)
   - [ ] idk organization
-- [x] be an idiot
 - [ ] understand some java
+- [x] be an idiot
 
 ### thanks to 
 - **dexkitt** > for creating this mod (duh)
