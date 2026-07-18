@@ -20,10 +20,6 @@ repositories {
     maven {
         name "Modrinth"
         url "https://api.modrinth.com/maven"
-        content {
-            includeGroup "maven.modrinth"
-            includeGroup "com.terraformersmc"
-        }
     }
 }
 
@@ -47,7 +43,7 @@ processResources {
 }
 
 tasks.withType(JavaCompile).configureEach {
-    it.options.release = 17
+    it.options.release = 25
 }
 
 java {
@@ -55,7 +51,7 @@ java {
 	// if it is present.
 	// If you remove this line, sources will not be generated.
     toolchain {
-        languageVersion = JavaLanguageVersion.of(17)
+        languageVersion = JavaLanguageVersion.of(25)
     }
 	withSourcesJar()
 }
