@@ -10,6 +10,9 @@
   "icon": "assets/dexsmod/icon.png",
   "environment": "*",
   "entrypoints": {
+    "client": [
+      "me.dexkitt.dexsmod.client.MainClient"
+    ],
     "main": [
       "me.dexkitt.dexsmod.Main"
     ]
